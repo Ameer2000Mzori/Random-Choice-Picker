@@ -48,11 +48,9 @@ body {
   color: white;
   padding: 0.5rem;
   border-radius: 15px;
-  transition: all;
-  transition-duration: 0.2s;
 }
 
-.header .choices-Wrap .choice:hover {
+.header .choices-Wrap .choice.active {
   background-color: rgb(250, 248, 248);
   color: rgb(0, 0, 0);
   padding: 0.5rem;
