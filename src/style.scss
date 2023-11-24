@@ -5,3 +5,56 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(148, 148, 238);
+
+  h4 {
+    font-family: inherit;
+    max-width: 35ch;
+    font-size: 15px;
+  }
+
+  textarea {
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: inherit;
+    color: black;
+    resize: none;
+    padding: 5px;
+  }
+
+  .choices-Wrap {
+    width: 360px;
+    display: flex;
+    text-align: start;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 10px;
+
+    .choice {
+      background-color: black;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 15px;
+      transition: all;
+      transition-duration: 0.2s;
+    }
+
+    .choice:hover {
+      background-color: rgb(250, 248, 248);
+      color: rgb(0, 0, 0);
+      padding: 0.5rem;
+      border-radius: 15px;
+    }
+  }
+}
