@@ -55,4 +55,23 @@ body {
       border-radius: 15px;
     }
   }
+
+  @media screen and (max-width: 769px) {
+    h4 {
+      font-size: 15px;
+    }
+
+    textarea {
+      width: 300px;
+    }
+
+    .choices-Wrap {
+      overflow: hidden;
+      width: 300px;
+    }
+
+    div {
+      font-size: 12px;
+    }
+  }
 }
