@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Experience Scroll Animation, a captivating website meticulously crafted with HTML, SCSS, and TypeScript. Built using webpack and fortified with linters, this project ensures a seamless and error-free codebase. Immerse yourself in the live demo for a firsthand look at the captivating animations!
+> Random-Choice-Picker is a website created with HTML, SCSS, and TypeScript. We utilize linters to overcome code issues and ensure clean code. Don't forget to check out the live demo!
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -39,7 +39,6 @@
   <li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript</a></li>
   <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
   <li><a href="https://eslint.org/">Html/TsLinters</a></li>
-    <li><a href="https://webpack.js.org/">Web Pack</a></li>
   </ul>
 </details>
 
